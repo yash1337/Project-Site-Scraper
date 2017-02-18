@@ -2,6 +2,8 @@
 This is basic web-scraper for getting the CSE 232 files.
 This script returns all the pdfs, input and output files.
 
+BTW, the script won't run on labs or X2GO client because there is no pip installed and you cannot install it without admin privileges.
+pip is automatically installed for python 3.4 and 2.7.9 .
 To use this script all you need to do is: 
 
 1. Enter the base url of the project. The highlighted text below is an example of URL that you would need.
