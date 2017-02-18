@@ -1,8 +1,12 @@
+import os
+#installing the BeautifulSoup and requests modules
+os.system('pip install beautifulsoup4')
+os.system('pip install requests')
+print()
 import requests 
 from bs4 import BeautifulSoup #getting the beasutiful soup library
 from requests.auth import HTTPBasicAuth
 from urllib.parse import urljoin
-import os
 import msvcrt as m
 
 
@@ -12,10 +16,7 @@ USERNAME=""
 PASSWORD=""
 ################################################
 
-#installing the BeautifulSoup and requests modules
-os.system('pip install beautifulsoup4')
-os.system('pip install requests')
-print()
+
 #getting the HTML file using the request object
 requestObject=requests.get(baseURL,auth=HTTPBasicAuth(USERNAME,PASSWORD)) 
 
