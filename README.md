@@ -8,7 +8,7 @@ To use this script all you need to do is:
 
 ![alt tag] (https://github.com/yash1337/Project-Site-Scraper/blob/master/SampleURL.png)
 
-2. Enter you CSE username in the USERNAME variable and password in the PASSWORD variable in the script.
+2. Enter your CSE username in the USERNAME variable and password in the PASSWORD variable in the script.
 Also copy the script to where you want to save the files to and then run it from there as the script saves the files in the diectory where it is.
 
 Contact me if anything breaks.
