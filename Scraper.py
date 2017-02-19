@@ -56,7 +56,7 @@ for link in correctCompletedURL:
 
 	
 #These lines delete the scraper file. Uncomment them if you don't want the file to be deleted			
-#os.remove('Scaper.py')
+#os.remove('Scraper.py')
 #print("Scraper File Removed!!!!")
 print("\nPress a key to continue...")
 m.getch()
