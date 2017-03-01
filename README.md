@@ -1,4 +1,4 @@
-# Project-Site-Scraper
+# Project Site "Cyclone" Scraper
 This is basic web-scraper for getting the CSE 232 files.
 This script returns all the pdfs, input and output files.
 
