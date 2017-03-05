@@ -40,7 +40,7 @@ for item in small_link:
 		correctRelativeURL.append(item)
 		
 for item in links:
-	if (".txt" in item or ".pdf" in item or ".cpp" in item):
+	if (".txt" in item or ".pdf" in item or ".cpp" in item or ".h" in item):
 		correctCompletedURL.append(item)
 
 #looping through the links, downloading files
