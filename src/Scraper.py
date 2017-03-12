@@ -31,16 +31,17 @@ small_link=[]
 for link in soup.find_all('a'):
 	small_link.append(link['href'])			#getting the link without the base URL
 	links.append(urljoin(baseURL,link['href']))   #joining the base and the relative URL 
-	
+
+
 #getting the links that we are intrested in i.e. .txt .pdf and .cpp
 correctRelativeURL=[]
 correctCompletedURL=[]
 for item in small_link:
-	if (".txt" in item or ".pdf" in item or ".cpp" in item):
+	if ".txt" in item or ".pdf" in item or ".cpp" in item:
 		correctRelativeURL.append(item)
 		
 for item in links:
-	if (".txt" in item or ".pdf" in item or ".cpp" in item or ".h" in item):
+	if ".txt" in item or ".pdf" in item or ".cpp" in item or ".h" in item:
 		correctCompletedURL.append(item)
 
 #looping through the links, downloading files
