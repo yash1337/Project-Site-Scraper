@@ -1,4 +1,22 @@
 # Project Site "Cyclone" Scraper
+
+#V2
+So I finally completed the Scraper witht the capability to download the Worksheets, Labs, Project Files and Lecture Notes.
+
+To use this you simply need to enter your CSE username and Password in the file once and run the file. Don't worry you will have the option to delete the file after you are done so that other people don't get your credentials. The code does check for some of the dependensies but if it gives an import error than just simply install that library using pip.
+
+What needs to be done:
+
+1. Code for getting sample code files.
+2. Add try and catch blocks for errors. 
+
+For advanced users
+I also have uploaded the requirements.txt file which you can directly use to install the dependencies. This should get all the dependencies. I suggest using a virtual environment for this so that you don't mess up your site-packages.
+
+
+
+
+#V1
 This is basic web-scraper for getting the CSE 232 files.
 This script returns all the pdfs, input and output files.
 
