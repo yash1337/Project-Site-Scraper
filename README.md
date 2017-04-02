@@ -12,7 +12,8 @@ What needs to be done:
 1. Code for getting sample code files.
 2. Add try and catch blocks for errors. 
 
-For advanced users
+For advanced users: 
+
 I also have uploaded the requirements.txt file which you can directly use to install the dependencies. This should get all the dependencies. I suggest using a virtual environment for this so that you don't mess up your site-packages.
 
 
