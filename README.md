@@ -39,7 +39,5 @@ At this point of the semester we only happen to have .txt .pdf and .cpp files so
 
 Contact me if anything breaks.
 
-DISCLAIMER: I do not store any of the credentials and everything is stored on your local drive. The script also contains code for the deletion of the script upon completion of the scraping. Uncomment that code to make sure nobody reads your credentials after you're done scraping.
-
-Update: The file deletion is not working on some of the computers I tested and working on some so if it does not work then just delete the file manually.
+**DISCLAIMER:** I do not store any of the credentials and everything is stored on your local drive. The script also contains code for the deletion of the script upon completion of the scraping. Uncomment that code to make sure nobody reads your credentials after you're done scraping.
 
