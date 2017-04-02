@@ -18,7 +18,7 @@ I also have uploaded the requirements.txt file which you can directly use to ins
 
 
 
-##V1
+## V1
 
 This is basic web-scraper for getting the CSE 232 files.
 This script returns all the pdfs, input and output files.
@@ -29,7 +29,7 @@ To use this script all you need to do is:
 
 1. Enter the base url of the project. The highlighted text below is an example of URL that you would need.
 
-![alt tag] (https://github.com/yash1337/Project-Site-Scraper/blob/master/SampleURL.png)
+![alt tag](https://github.com/yash1337/Project-Site-Scraper/blob/master/SampleURL.png)
 
 2. Enter your CSE username in the USERNAME variable and password in the PASSWORD variable in the script.
 Also copy the script to where you want to save the files to and then run it from there as the script saves the files in the diectory where it is.
