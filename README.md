@@ -1,6 +1,6 @@
 # Project Site "Cyclone" Scraper
 
-#V2#
+##V2
 
 So I finally completed the Scraper witht the capability to download the Worksheets, Labs, Project Files and Lecture Notes.
 
@@ -17,7 +17,7 @@ I also have uploaded the requirements.txt file which you can directly use to ins
 
 
 
-#V1
+##V1
 
 This is basic web-scraper for getting the CSE 232 files.
 This script returns all the pdfs, input and output files.
