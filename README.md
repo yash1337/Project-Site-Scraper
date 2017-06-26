@@ -5,7 +5,7 @@
 ### V1
 
 This is basic web-scraper for getting the CSE 260 files.
-This script returns all the Lecture Notes and Homework Assignments pdfs.
+This script returns all the Lecture Notes, Homework Assignments and Sample Test pdfs.
 
 **For advanced users:**
 
