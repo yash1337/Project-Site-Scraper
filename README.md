@@ -1,6 +1,19 @@
 # Project Site "Cyclone" Scraper
 
-## V2
+## CSE260 Scraper
+
+### V1
+
+This is basic web-scraper for getting the CSE 260 files.
+This script returns all the Lecture Notes and Homework Assignments pdfs.
+
+**For advanced users:**
+
+I also have uploaded the requirements.txt file which you can directly use to install the dependencies. This should get all the dependencies. I suggest using a virtual environment for this so that you don't mess up your site-packages.
+
+## CSE232 Scraper
+
+### V2
 
 
 So I finally completed the Scraper witht the capability to download the Worksheets, Labs, Project Files and Lecture Notes.
@@ -19,7 +32,7 @@ I also have uploaded the requirements.txt file which you can directly use to ins
 
 
 
-## V1
+# V1
 
 This is basic web-scraper for getting the CSE 232 files.
 This script returns all the pdfs, input and output files.
