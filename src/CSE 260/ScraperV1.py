@@ -1,7 +1,7 @@
 #############################
 ##Project Site 'Cyclone" Scraper v1
 ##This thing Scrapes everthing from the CSE 260 Lecture Notes, Sample tests, and Homework assignments
-##You need to supply theE 260 user name and Password 
+##You need to supply the CSE 260 Password that professor gave us
 #############################
 
 ################################################################################################################
@@ -48,8 +48,8 @@ import urllib.parse
 ################################################################################################################
 
 ################################################################################################################
-UNAME="cse260"
-PASSWORD="dmig4me"
+UNAME=""
+PASSWORD=""
 ################################################################################################################
 
 ################################################################################################################
@@ -128,10 +128,12 @@ def menu():
 	print("q. Nothing fam. Just get me out of here!\n")
 	
 def main():
-	print("Welcome to CSE232 Scraper!!!!!!\n")
+	print("Welcome to CSE260 Scraper!!!!!!\n")
 	menu()	
 	userInput=(input("So what do you want (not in life. What do you want right now!!!): "))
 	print()
+	UNAME="cse260"
+	PASSWORD=input("Please enter password for CSE260 account that Professor gave us(Hint: Discrete Math Is Good for ME): ")
 	beautifiedBaseObject=returnBeautifiedObject(baseURL,UNAME,PASSWORD)
 	while(True):
 		if(userInput=='1'):
