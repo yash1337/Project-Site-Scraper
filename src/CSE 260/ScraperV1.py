@@ -1,7 +1,7 @@
 #############################
-##Project Site 'Cyclone" Scraper v2
-##This thing Scrapes everthing from the CSE 232 site Videos, Worksheets, Lecture Notes, and Project Files
-##You need to supply your CSE user name and Password 
+##Project Site 'Cyclone" Scraper v1
+##This thing Scrapes everthing from the CSE 260 Lecture Notes, Sample tests, and Homework assignments
+##You need to supply theE 260 user name and Password 
 #############################
 
 ################################################################################################################
